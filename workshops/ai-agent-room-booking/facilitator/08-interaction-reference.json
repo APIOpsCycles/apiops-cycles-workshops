@@ -1,0 +1,229 @@
+{
+  "templateId": "interactionCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Facilitator reference: possible decisions, not a unique solution."
+  },
+  "sections": [
+    {
+      "sectionId": "crudInteractions",
+      "stickyNotes": [
+        {
+          "content": "Read booking",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 100,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "crudInputOutputModels",
+      "stickyNotes": [
+        {
+          "content": "ID -> status",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 100,
+            "y": 319
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "crudProcessingValidation",
+      "stickyNotes": [
+        {
+          "content": "Check owner",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 100,
+            "y": 506
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "queryDrivenInteractions",
+      "stickyNotes": [
+        {
+          "content": "Find free rooms",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 340,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "queryDrivenInputOutputModels",
+      "stickyNotes": [
+        {
+          "content": "Time + capacity",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 297,
+            "y": 337
+          }
+        },
+        {
+          "content": "Room options",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 382,
+            "y": 337
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "queryDrivenProcessingValidation",
+      "stickyNotes": [
+        {
+          "content": "Validate time",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 297,
+            "y": 524
+          }
+        },
+        {
+          "content": "Filter access",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 382,
+            "y": 524
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "commandDrivenInteractions",
+      "stickyNotes": [
+        {
+          "content": "Reserve room",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 580,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "commandDrivenInputOutputModels",
+      "stickyNotes": [
+        {
+          "content": "Room + time + key",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 537,
+            "y": 337
+          }
+        },
+        {
+          "content": "ID or conflict",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 622,
+            "y": 337
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "commandDrivenProcessingValidation",
+      "stickyNotes": [
+        {
+          "content": "Atomic reserve",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 537,
+            "y": 524
+          }
+        },
+        {
+          "content": "Replay same result",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 622,
+            "y": 524
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "eventDrivenInteractions",
+      "stickyNotes": [
+        {
+          "content": "Cancelled",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 820,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "eventDrivenInputOutputModels",
+      "stickyNotes": [
+        {
+          "content": "Event + booking ID",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 820,
+            "y": 337
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "eventDrivenProcessingValidation",
+      "stickyNotes": [
+        {
+          "content": "Private feed",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 777,
+            "y": 524
+          }
+        },
+        {
+          "content": "Dedupe events",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 862,
+            "y": 524
+          }
+        }
+      ]
+    }
+  ]
+}

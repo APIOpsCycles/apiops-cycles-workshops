@@ -1,0 +1,86 @@
+{
+  "templateId": "businessImpactCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Workshop input: challenge and improve these assumptions."
+  },
+  "sections": [
+    {
+      "sectionId": "expectedBenefits",
+      "stickyNotes": [
+        {
+          "content": "Less admin",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 100,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "operationalEfficiencyImpact",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "customerEmployeeImpact",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "financialImpact",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "complianceStrategicImpact",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "impactOfNotProceeding",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "risksAndCriticality",
+      "stickyNotes": [
+        {
+          "content": "A1: API outage",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 537,
+            "y": 413
+          }
+        },
+        {
+          "content": "S1: Private room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 622,
+            "y": 413
+          }
+        },
+        {
+          "content": "D1: Double booking",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 580,
+            "y": 498
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "mitigationsAndDecisionImpact",
+      "stickyNotes": []
+    }
+  ]
+}

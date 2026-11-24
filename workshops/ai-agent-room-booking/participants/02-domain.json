@@ -1,0 +1,226 @@
+{
+  "templateId": "domainCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Workshop input: challenge and improve these assumptions."
+  },
+  "sections": [
+    {
+      "sectionId": "selectedCustomerJourneySteps",
+      "stickyNotes": [
+        {
+          "content": "Find rooms",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 68,
+            "y": 124
+          }
+        },
+        {
+          "content": "Reserve room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 264,
+            "y": 124
+          }
+        },
+        {
+          "content": "Check result",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 460,
+            "y": 124
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "coreEntitiesAndBusinessMeaning",
+      "stickyNotes": [
+        {
+          "content": "Office: site",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 97,
+            "y": 272
+          }
+        },
+        {
+          "content": "Room: space",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 182,
+            "y": 272
+          }
+        },
+        {
+          "content": "Booking: slot",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 267,
+            "y": 272
+          }
+        },
+        {
+          "content": "Staff: user",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 352,
+            "y": 272
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "attributesAndBusinessImportance",
+      "stickyNotes": [
+        {
+          "content": "Room ID + size",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 630,
+            "y": 272
+          }
+        },
+        {
+          "content": "Office ID",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 715,
+            "y": 272
+          }
+        },
+        {
+          "content": "Start + end",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 800,
+            "y": 272
+          }
+        },
+        {
+          "content": "Time zone",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 672,
+            "y": 357
+          }
+        },
+        {
+          "content": "State",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 757,
+            "y": 357
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "relationshipsBetweenEntities",
+      "stickyNotes": [
+        {
+          "content": "Room in office",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 140,
+            "y": 412
+          }
+        },
+        {
+          "content": "Booking for room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 225,
+            "y": 412
+          }
+        },
+        {
+          "content": "Employee books",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 310,
+            "y": 412
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "businessComplianceAndIntegrityRules",
+      "stickyNotes": [
+        {
+          "content": "No overlaps",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 140,
+            "y": 552
+          }
+        },
+        {
+          "content": "End after start",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 225,
+            "y": 552
+          }
+        },
+        {
+          "content": "Capacity fits",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 310,
+            "y": 552
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "securityAndPrivacyConsiderations",
+      "stickyNotes": [
+        {
+          "content": "Act for user",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 672,
+            "y": 552
+          }
+        },
+        {
+          "content": "Private calendars",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 757,
+            "y": 552
+          }
+        }
+      ]
+    }
+  ]
+}

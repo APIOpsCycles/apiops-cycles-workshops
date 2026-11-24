@@ -1,0 +1,104 @@
+{
+  "templateId": "interactionCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Workshop input: challenge and improve these assumptions."
+  },
+  "sections": [
+    {
+      "sectionId": "crudInteractions",
+      "stickyNotes": [
+        {
+          "content": "Read booking",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 100,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "crudInputOutputModels",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "crudProcessingValidation",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "queryDrivenInteractions",
+      "stickyNotes": [
+        {
+          "content": "Find free rooms",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 340,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "queryDrivenInputOutputModels",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "queryDrivenProcessingValidation",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "commandDrivenInteractions",
+      "stickyNotes": [
+        {
+          "content": "Reserve room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 580,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "commandDrivenInputOutputModels",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "commandDrivenProcessingValidation",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "eventDrivenInteractions",
+      "stickyNotes": [
+        {
+          "content": "Cancelled",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 820,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "eventDrivenInputOutputModels",
+      "stickyNotes": []
+    },
+    {
+      "sectionId": "eventDrivenProcessingValidation",
+      "stickyNotes": []
+    }
+  ]
+}

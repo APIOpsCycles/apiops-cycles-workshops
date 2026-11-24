@@ -1,0 +1,223 @@
+{
+  "templateId": "customerJourneyCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Workshop input: challenge and improve these assumptions."
+  },
+  "sections": [
+    {
+      "sectionId": "customerDiscoversNeed",
+      "stickyNotes": [
+        {
+          "content": "Six-person meeting",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 75,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "persona",
+      "stickyNotes": [
+        {
+          "content": "Employee + AI agent",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 455,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "pains",
+      "stickyNotes": [
+        {
+          "content": "Manual search",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 32,
+            "y": 244
+          }
+        },
+        {
+          "content": "Unclear outcome",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 117,
+            "y": 244
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "journeySteps",
+      "stickyNotes": [
+        {
+          "content": "Clarify need",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 217,
+            "y": 320
+          }
+        },
+        {
+          "content": "Find rooms",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 331,
+            "y": 320
+          }
+        },
+        {
+          "content": "Choose room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 445,
+            "y": 320
+          }
+        },
+        {
+          "content": "Reserve room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 559,
+            "y": 320
+          }
+        },
+        {
+          "content": "Check result",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 673,
+            "y": 320
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "customerNeedIsResolved",
+      "stickyNotes": [
+        {
+          "content": "Room booked",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 835,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "gains",
+      "stickyNotes": [
+        {
+          "content": "Suitable room",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 792,
+            "y": 244
+          }
+        },
+        {
+          "content": "Trusted result",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 877,
+            "y": 244
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "inputsOutputs",
+      "stickyNotes": [
+        {
+          "content": "Time + time zone",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 222,
+            "y": 468
+          }
+        },
+        {
+          "content": "Booking ID + state",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 307,
+            "y": 468
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "interactionProcessingRules",
+      "stickyNotes": [
+        {
+          "content": "Check access",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 602,
+            "y": 468
+          }
+        },
+        {
+          "content": "Prevent overlaps",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 687,
+            "y": 468
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "improvementOpportunities",
+      "stickyNotes": [
+        {
+          "content": "Clear failure",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 412,
+            "y": 580
+          }
+        },
+        {
+          "content": "Cancel easily",
+          "size": 80,
+          "color": "#fff1c9",
+          "position": {
+            "x": 497,
+            "y": 580
+          }
+        }
+      ]
+    }
+  ]
+}

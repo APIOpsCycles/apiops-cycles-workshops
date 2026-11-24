@@ -1,0 +1,182 @@
+{
+  "templateId": "businessImpactCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Facilitator reference: possible decisions, not a unique solution."
+  },
+  "sections": [
+    {
+      "sectionId": "expectedBenefits",
+      "stickyNotes": [
+        {
+          "content": "Less admin",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 100,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "operationalEfficiencyImpact",
+      "stickyNotes": [
+        {
+          "content": "Less repair",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 340,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "customerEmployeeImpact",
+      "stickyNotes": [
+        {
+          "content": "Trust in outcome",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 580,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "financialImpact",
+      "stickyNotes": [
+        {
+          "content": "Measure staff time",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 820,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "complianceStrategicImpact",
+      "stickyNotes": [
+        {
+          "content": "Private calendars",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 100,
+            "y": 413
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "impactOfNotProceeding",
+      "stickyNotes": [
+        {
+          "content": "Manual checking",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 340,
+            "y": 413
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "risksAndCriticality",
+      "stickyNotes": [
+        {
+          "content": "A1: API outage",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 537,
+            "y": 413
+          }
+        },
+        {
+          "content": "S1: Private room",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 622,
+            "y": 413
+          }
+        },
+        {
+          "content": "D1: Double booking",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 537,
+            "y": 498
+          }
+        },
+        {
+          "content": "D2: Retry copies",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 622,
+            "y": 498
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "mitigationsAndDecisionImpact",
+      "stickyNotes": [
+        {
+          "content": "A1: Status lookup",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 777,
+            "y": 413
+          }
+        },
+        {
+          "content": "S1: Check access",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 862,
+            "y": 413
+          }
+        },
+        {
+          "content": "D1: Atomic reserve",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 777,
+            "y": 498
+          }
+        },
+        {
+          "content": "D2: Dedupe key",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 862,
+            "y": 498
+          }
+        }
+      ]
+    }
+  ]
+}

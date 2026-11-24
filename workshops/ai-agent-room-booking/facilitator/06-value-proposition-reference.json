@@ -1,0 +1,136 @@
+{
+  "templateId": "apiValuePropositionCanvas",
+  "locale": "en",
+  "metadata": {
+    "source": "APIOps Cycles",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+      "Alexander Osterwalder",
+      "Osaango Ltd"
+    ],
+    "website": "www.apiopscycles.com",
+    "date": "2026-11-24",
+    "context": "Fictional room booking workshop. Facilitator reference: possible decisions, not a unique solution."
+  },
+  "sections": [
+    {
+      "sectionId": "tasks",
+      "stickyNotes": [
+        {
+          "content": "Book room for six",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 66,
+            "y": 171
+          }
+        },
+        {
+          "content": "All can attend",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 258,
+            "y": 171
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "gainEnablingFeatures",
+      "stickyNotes": [
+        {
+          "content": "AV needs",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 135,
+            "y": 319
+          }
+        },
+        {
+          "content": "Office + time zone",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 220,
+            "y": 319
+          }
+        },
+        {
+          "content": "Check free/busy",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 305,
+            "y": 319
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "painRelievingFeatures",
+      "stickyNotes": [
+        {
+          "content": "Clear outcome",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 615,
+            "y": 319
+          }
+        },
+        {
+          "content": "Explain rejection",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 700,
+            "y": 319
+          }
+        },
+        {
+          "content": "Recover lost reply",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 785,
+            "y": 319
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "apiProducts",
+      "stickyNotes": [
+        {
+          "content": "Room Booking API",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 375,
+            "y": 506
+          }
+        },
+        {
+          "content": "Calendar API",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 460,
+            "y": 506
+          }
+        },
+        {
+          "content": "Directory API",
+          "size": 80,
+          "color": "#ddf2df",
+          "position": {
+            "x": 545,
+            "y": 506
+          }
+        }
+      ]
+    }
+  ]
+}
